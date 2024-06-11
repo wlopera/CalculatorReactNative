@@ -1,15 +1,20 @@
 ## REACT NATIVE
 Framework de JavaScript que permite crear aplicaciones nativas para IOS y Android. Esta basada en React, librarías de JavaScript creadas por Facebook que permite construir interfaces de usuario
+
 ![image](https://github.com/wlopera/CalculatorReactNative/assets/7141537/03ea17a0-4a36-463c-a95b-19e25d17b1e8)
 
 #### Librería:
 Colección de código ya escrito que permite ser rehusado para simplificar y acelerar el proceso de construcción de código. Permite de funciones o métodos que permiten hacer el trabajo mas rápido y eficiente.
+
 ![image](https://github.com/wlopera/CalculatorReactNative/assets/7141537/44dd8975-3de6-488d-b152-c46d57986e83)
 
 ### Framework:
 Herramientas o códigos pre escrito funciones , métodos y librerías que permite escribir aplicaciones mas rápido.
+
 ![image](https://github.com/wlopera/CalculatorReactNative/assets/7141537/4e3fd2d2-9bcc-4edd-887f-6ea7fa28b350)
+
 ![image](https://github.com/wlopera/CalculatorReactNative/assets/7141537/e1babbd4-9e70-4e90-b5e0-9716b4ab55a1)
+
 ![image](https://github.com/wlopera/CalculatorReactNative/assets/7141537/85adef5f-4bd0-4730-8612-3afddf484946)
 
 Ejemplo de limitaciones IOS puede tener algunas características que no se pueden con Android. (Aqui podrias requerir código nativo)
@@ -22,11 +27,11 @@ Podrias sentir que las APP nativas son un poco diferentes a las de React Native 
 ![image](https://github.com/wlopera/CalculatorReactNative/assets/7141537/d57c5577-fc32-4c76-96f9-4481f61adcfe)
 
 ###### Creamos un proyecto React Native con TypeScript básico
-	_> npx react-native@latest init CalculatorReactNative
+_> npx react-native@latest init CalculatorReactNative
 ![image](https://github.com/wlopera/CalculatorReactNative/assets/7141537/c2a7c3df-120d-4e76-af68-4149be1de75c)
 
 
-######Limpiar cache y levantar
+###### Limpiar cache y levantar
 ...\CalculatorReactNative>  cd android
 ..\CalculatorReactNative\android>gradlew clean
 ![image](https://github.com/wlopera/CalculatorReactNative/assets/7141537/33af8824-723e-402c-9296-da6ac0d648b1)
