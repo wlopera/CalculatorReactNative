@@ -28,6 +28,7 @@ Podrias sentir que las APP nativas son un poco diferentes a las de React Native 
 
 ###### Creamos un proyecto React Native con TypeScript básico
 _> npx react-native@latest init CalculatorReactNative
+
 ![image](https://github.com/wlopera/CalculatorReactNative/assets/7141537/c2a7c3df-120d-4e76-af68-4149be1de75c)
 
 
@@ -44,13 +45,15 @@ _> npx react-native@latest init CalculatorReactNative
 ![image](https://github.com/wlopera/CalculatorReactNative/assets/7141537/8a911721-44df-4dc6-81a2-dc0e7d14de83)
 
 ###### Código:
+```
+* Componente principal Calculator.jsx donde se despliega la APP y se realiza los cálculos con el apoyo de utilitarios y tipos.
+  Se crearon cuatro componentes
+       * CurrentDisplay: Texto de información actual para los cálculos
+       * ResultDisplay:Texto de información de entrada de data y resultados
+       * BottonMap: Componente que permite recorrer una matriz con los datos de los botones y sus caracteristicas 
+       * BottonItem: Componente que despliega los botones en la vista final
+```
 
-Componente principal Calculator.jsx donde se despliega la APP y se realiza los cálculos con el apoyo de utilitarios y tipos.
-Se crearon cuatro componentes
-CurrentDisplay: Texto de información actual para los cálculos
-ResultDisplay:Texto de información de entrada de data y resultados
-BottonMap: Componente que permite recorrer una matriz con los datos de los botones y sus caracteristicas 
-BottonItem: Componente que despliega los botones en la vista final
 
 ###### Manejo de tipos:
 ```
@@ -67,7 +70,7 @@ export type BotonProps = BotonDataProps & ButtonActionsProps;
 
 ###### Manejo de estilos de la vista
 
-####### Pantalla principal: Se divide en dos parte superior e inferior
+###### Pantalla principal: Se divide en dos parte superior e inferior
 ```
 const styles = StyleSheet.create({
   container: {
@@ -85,7 +88,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-####### Botones: Se define un tamaño y separación y borde redondeado por botón
+###### Botones: Se define un tamaño y separación y borde redondeado por botón
 ```
 const styles = StyleSheet.create({
   constainer: {
@@ -108,7 +111,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-####### Textos de información:  SE alinea en la parte inferior y a la derecha de su posición
+###### Textos de información:  SE alinea en la parte inferior y a la derecha de su posición
 ```
 const styles = StyleSheet.create({
   container: {flex: 1, justifyContent: 'flex-end', alignItems: 'flex-end'},
